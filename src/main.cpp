@@ -23,7 +23,7 @@ void updateLED();
 // ========================================
 void setup() {
   // Initialize Serial for debugging
-  Serial.begin(115200);
+  Serial.begin(9600);
   delay(1000);  // Wait for Serial to stabilize
   
   Serial.println("\n\n========================================");
